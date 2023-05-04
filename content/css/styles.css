@@ -1,0 +1,173 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    font-family: "Plus Jakarta Sans"
+}
+
+
+
+/* header */
+
+
+.header {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    z-index: 100;
+    justify-content: space-between;
+
+}
+
+.header img {
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+.header p {
+    color: #ffffff;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+/* landing page first page */
+
+.landing-page-first {
+    display: flex;
+    flex-flow: row;
+}
+
+.background-left {
+    background-color: #201F1F;
+    width: 50%;
+    height: 768px;
+    flex-grow: 1;
+    position: relative;
+
+    
+}
+
+.background-right {
+    width: 50%;
+    height: 768px;
+    flex-grow: 1;
+
+    position: relative;
+}
+
+.background-right img {
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+    display: flex;
+    position: absolute;
+    z-index: 100;
+    align-self: center;
+    justify-content: center;
+    width:100%;
+}
+
+#business {
+    font-size: 200px;
+    font-style: italic;
+    font-weight: 800;
+    color:aliceblue;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+
+#grow-your {
+    font-style: italic;
+    font-weight: 200;
+    color:aliceblue;
+    font-style: italic;
+    font-size: 80px;
+    margin-bottom: 0px;
+}
+
+#today {
+    margin-top: 0px;
+    font-size: 80px;
+    display: flex;
+    font-style: italic;
+    font-weight: 200;
+    color:aliceblue;
+    justify-content: end;
+}
+
+/* SECOND PART */
+
+
+.landing-page-second {
+    display: flex;
+    flex-flow: row;
+}
+
+.second-page-right {
+    background-color: #201F1F;
+    width: 50%;
+    height: 768px;
+    flex-grow: 1;
+    position: relative;
+
+    
+}
+
+.second-page-left {
+    width: 50%;
+    height: 768px;
+    flex-grow: 1;
+    max-width: 50%;
+    position: relative;
+    object-fit: contain;
+}
+
+.second-page-left img {
+    width: 100%;
+    height: 100%;
+}
+
+/* TEXT */
+
+.second-page-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.web-design {
+    width: 470px;
+}
+
+#our-services {
+    margin-left: 5px;
+    align-self: start;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#web-design {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 80px;
+    font-weight: 800;
+    font-style: italic;
+    color: #ffffff;
+}
+
+#web-design-p {
+    margin-left: 5px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 200;
+    opacity: 60%;
+}
